@@ -1,9 +1,9 @@
-﻿<Window x:Class="RichEditTransparentWpf.MainWindow"
+<Window x:Class="RichEditTransparentWpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
         xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit"
-        xmlns:dxret="clr-namespace:DevExpress.Xpf.RichEdit.Themes;assembly=DevExpress.Xpf.RichEdit.v12.1"
+        xmlns:dxret="clr-namespace:DevExpress.Xpf.RichEdit.Themes;assembly=DevExpress.Xpf.RichEdit.v13.1"
         Title="MainWindow" Height="500" Width="780">
     
     <Window.Resources>
