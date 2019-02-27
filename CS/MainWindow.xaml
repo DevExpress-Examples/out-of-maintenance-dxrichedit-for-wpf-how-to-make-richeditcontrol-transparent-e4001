@@ -8,14 +8,14 @@
     
     <Window.Resources>
         <!--BackgroundControlTemplate-->
-        <ControlTemplate x:Key="{dxret:RichEditControlThemeKey ResourceKey=BackgroundControlTemplate}" TargetType="{x:Type ContentControl}">
+        <ControlTemplate x:Key="{dxret:RichEditControlThemeKey ResourceKey=BackgroundControlTemplate, IsThemeIndependent=true}" TargetType="{x:Type ContentControl}">
             <Border Background="Transparent">
                 <ContentPresenter SnapsToDevicePixels="True" UseLayoutRounding="True" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" />
             </Border>
         </ControlTemplate>
 
         <!--PrintLayoutViewPageBorderControlTemplate-->
-        <ControlTemplate x:Key="{dxret:RichEditControlThemeKey ResourceKey=PrintLayoutViewPageBorderControlTemplate}" TargetType="{x:Type ContentControl}">
+        <ControlTemplate x:Key="{dxret:RichEditControlThemeKey ResourceKey=PrintLayoutViewPageBorderControlTemplate, IsThemeIndependent=true}" TargetType="{x:Type ContentControl}">
             <Border Background="Transparent" CornerRadius="2" Margin="1">
                 <ContentPresenter SnapsToDevicePixels="True" UseLayoutRounding="True" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" />
             </Border>
