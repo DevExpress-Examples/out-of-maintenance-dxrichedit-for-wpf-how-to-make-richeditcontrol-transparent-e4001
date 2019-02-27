@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Drawing
+﻿Imports System.Drawing
 Imports System.Windows
 Imports DevExpress.XtraRichEdit
 Imports DevExpress.Office.Utils
@@ -8,6 +7,7 @@ Imports DevExpress.XtraRichEdit.API.Native
 Namespace RichEditTransparentWpf
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
@@ -24,8 +24,8 @@ Namespace RichEditTransparentWpf
 			firstSection.Margins.Top = 0
 			firstSection.Margins.Right = 0
 			firstSection.Margins.Bottom = 0
-			firstSection.Page.Width = Units.InchesToDocumentsF(2.3f)
-			firstSection.Page.Height = Units.InchesToDocumentsF(3f)
+			firstSection.Page.Width = Units.InchesToDocumentsF(2.3F)
+			firstSection.Page.Height = Units.InchesToDocumentsF(3F)
 		End Sub
 	End Class
 End Namespace
